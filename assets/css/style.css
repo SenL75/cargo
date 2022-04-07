@@ -37,3 +37,60 @@ body{
     width: 1820px;
     margin: 0 auto;
 }
+a:hover{
+    color: orange;
+}
+/* heaader */
+.h_wr{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+}
+header ul{
+    display: flex;
+}
+.h_link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 146%;
+    color: #FFFFFF;
+}
+header li:not(last-childe){
+    margin-right: 50px;
+}
+.h_linkB{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 146%;
+    text-align: center;    
+    color: #FFFFFF;
+    background: #E58D35;
+    border-radius: 90px;
+    padding: 14px 27px;
+}
+.h_linkB:hover{
+    color: rgba(0, 0, 0, 0.575);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
